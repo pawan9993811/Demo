@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9344" started-at="2016-02-17T06:17:40Z" finished-at="2016-02-17T06:17:50Z">
+  <suite name="Default suite" duration-ms="29" started-at="2016-02-25T10:19:38Z" finished-at="2016-02-25T10:19:38Z">
     <groups>
+      <group name="Car">
+        <method signature="Grouping.Car1()[pri:0, instance:SeleniumDemo.Grouping@2be94b0f]" name="Car1" class="SeleniumDemo.Grouping"/>
+        <method signature="Grouping.Car2()[pri:0, instance:SeleniumDemo.Grouping@2be94b0f]" name="Car2" class="SeleniumDemo.Grouping"/>
+        <method signature="Grouping.Sedan1()[pri:0, instance:SeleniumDemo.Grouping@2be94b0f]" name="Sedan1" class="SeleniumDemo.Grouping"/>
+      </group> <!-- Car -->
+      <group name="Sedan Car">
+        <method signature="Grouping.Sedan1()[pri:0, instance:SeleniumDemo.Grouping@2be94b0f]" name="Sedan1" class="SeleniumDemo.Grouping"/>
+      </group> <!-- Sedan Car -->
+      <group name="bike">
+        <method signature="Grouping.Scooter1()[pri:0, instance:SeleniumDemo.Grouping@2be94b0f]" name="Scooter1" class="SeleniumDemo.Grouping"/>
+        <method signature="Grouping.Scooter2()[pri:0, instance:SeleniumDemo.Grouping@2be94b0f]" name="Scooter2" class="SeleniumDemo.Grouping"/>
+      </group> <!-- bike -->
     </groups>
-    <test name="Test" duration-ms="9344" started-at="2016-02-17T06:17:40Z" finished-at="2016-02-17T06:17:50Z">
-      <class name="SeleniumDemo.DemoWithTestNg">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SeleniumDemo.DemoWithTestNg@387c703b]" name="beforeMethod" is-config="true" duration-ms="7649" started-at="2016-02-17T11:47:40Z" finished-at="2016-02-17T11:47:48Z">
+    <test name="Default test" duration-ms="29" started-at="2016-02-25T10:19:38Z" finished-at="2016-02-25T10:19:38Z">
+      <class name="SeleniumDemo.Grouping">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:SeleniumDemo.Grouping@2be94b0f]" name="Car1" duration-ms="9" started-at="2016-02-25T15:49:38Z" finished-at="2016-02-25T15:49:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Demo()[pri:0, instance:SeleniumDemo.DemoWithTestNg@387c703b]" name="Demo" duration-ms="53" started-at="2016-02-17T11:47:48Z" finished-at="2016-02-17T11:47:48Z">
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:SeleniumDemo.Grouping@2be94b0f]" name="Car2" duration-ms="0" started-at="2016-02-25T15:49:38Z" finished-at="2016-02-25T15:49:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Demo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SeleniumDemo.DemoWithTestNg@387c703b]" name="afterMethod" is-config="true" duration-ms="1631" started-at="2016-02-17T11:47:48Z" finished-at="2016-02-17T11:47:50Z">
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Scooter1()[pri:0, instance:SeleniumDemo.Grouping@2be94b0f]" name="Scooter1" duration-ms="0" started-at="2016-02-25T15:49:38Z" finished-at="2016-02-25T15:49:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- SeleniumDemo.DemoWithTestNg -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Scooter1 -->
+        <test-method status="PASS" signature="Scooter2()[pri:0, instance:SeleniumDemo.Grouping@2be94b0f]" name="Scooter2" duration-ms="1" started-at="2016-02-25T15:49:38Z" finished-at="2016-02-25T15:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter2 -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:SeleniumDemo.Grouping@2be94b0f]" name="Sedan1" duration-ms="0" started-at="2016-02-25T15:49:38Z" finished-at="2016-02-25T15:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sedan1 -->
+      </class> <!-- SeleniumDemo.Grouping -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
